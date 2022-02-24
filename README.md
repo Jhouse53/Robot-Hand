@@ -11,7 +11,7 @@ Benton / Shrey Robot Hand project for school
 
 ### Summary
 
-### Reflection
+### Code Reflection
 
 
 
@@ -39,8 +39,8 @@ Version 3.2 is similar to Version 3 in most ways aside from a couple of differen
 #### Images
 <img src="https://github.com/Jhouse53/Robot-Hand/blob/main/Images/Robot%20Hand%20Palm%20V3.2%20pic1.PNG?raw=true" width="200"> <img src="https://github.com/Jhouse53/Robot-Hand/blob/main/Images/Robot%20Hand%20Palm%20V3.2%20pic2.PNG?raw=true" width="200"> <img src="https://github.com/Jhouse53/Robot-Hand/blob/main/Images/Robot%20Hand%20Finger%20V3.2%20pic1.PNG?raw=true" width="200">
 
-### Reflection
-
+### CAD Reflection
+One of the main problems we ran into in our CAD design was that it was to small and the joints were to small and the 3D printer had a hard time printing them. and even if it did print it there would be heavy forces acting on it that would most likely break it. Design 2 was the first design we attempted to print out its major issue was that it was entirely to small. Both the fingers and the joints were to small and wouldn't be able to function properly.
 
 ## Physical Project
 
