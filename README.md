@@ -36,6 +36,7 @@ myservo.write(angle);
 delay(40);
     
 ```
+[Click Here to see the full code](https://github.com/Jhouse53/Robot-Hand/blob/main/Code/FlexsensorCode.ino)
 
 ### Code Reflection
 
