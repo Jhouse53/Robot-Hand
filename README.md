@@ -4,7 +4,11 @@ Benton / Shrey Robot Hand project for school
 ## Project Pre Planning
 
 ### Proposal
+
+Here is our initial proposal for our Robot arm project:
+
 [Google Doc Proposal](https://docs.google.com/document/d/1pJv--MkpJIrZVuyjbc_YNHxrnz6IX2q_PzAKAFET-n0/edit?usp=sharing)
+
 ### Project Description
 
 ## Code
