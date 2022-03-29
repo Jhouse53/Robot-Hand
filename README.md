@@ -40,7 +40,7 @@ delay(40);
 
 ### Code Reflection
 
-
+The code for this project was supposed to be easy, in theory, but ended up a lot more difficult than I thought. One of the main challenges at first, when we were still planning on using a button to freeze all motion of the hand, was to get the booleans working properly. It took a lot of trial and error and some help from the teachers to get it working right. After that, a big problem was the flex sensors. When you map the value from flex sensore language to servo language, you enter in 2 numbers in between which the sensor gives readings. The problem was, that all the sensors were slightly different in the values it gave, so I had to aually calibrate all of them to get each of the individual map values. You also cant move them around because if the wiring doesn't match up with how you initially calibrated it, you ust recalibrate. That was slight pain. Other than that, there was a lot of tweaking based on how the actual figer was moving, but in the end, we got it to function right.
 
 ## CAD
 
