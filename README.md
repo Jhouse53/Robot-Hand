@@ -11,6 +11,32 @@ Benton / Shrey Robot Hand project for school
 
 ### Summary
 
+### Code Snippets
+
+Here we initialize the flex sensors into pins
+
+```c++
+
+const int flexPin = A0; //pin A0
+const int flexPin1 = A1;
+const int flexPin2 = A2;
+const int flexPin3 = A3;
+const int flexPin4 = A4;
+
+```
+This is the main part of out code which turns our flex sensor readings into "servo language". We have this piece of code 5 times with different "value" variables and "angle" variables that are unique to its own sensor.
+
+```c++
+
+value = analogRead(flexPin);               //flexpin
+angle = map(value, 755, 910, 0, 180);//Map value 0-1023 to 0-255 (PWM)
+Serial.print("sensor0: ");
+Serial.print(angle);
+myservo.write(angle);
+delay(40);
+    
+```
+
 ### Code Reflection
 
 
