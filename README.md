@@ -76,4 +76,4 @@ One of the main problems we ran into in our CAD design was that it was to small 
 ## Physical Project
 
 ## Reflection
-[Rotten Filaments score 73%]
+[Rotten Filaments](https://github.com/shrey45/Project-Rating/blob/main/README.md) Score - **73%**
