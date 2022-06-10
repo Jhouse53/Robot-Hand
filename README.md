@@ -105,7 +105,7 @@ For CAD, we didn't make any other huge changes to the actual palm design, but th
 
 https://user-images.githubusercontent.com/63983735/173067711-6213c0d6-ea40-421b-83aa-efc5781ea266.mov
 
-
+<img src="https://github.com/Jhouse53/Robot-Hand/blob/main/Images/1C18D147-B1F6-45C2-8197-8EC1F30F4C25.jpeg" width="300"> <img src="https://github.com/Jhouse53/Robot-Hand/blob/main/Images/F27DDD6A-D293-496A-B3B4-0CDAEFB3B5D2.jpeg" width="300"> <img src="https://github.com/Jhouse53/Robot-Hand/blob/main/Images/C5CA714E-753B-4774-99D3-E968C54DD222.jpeg" width="300">
 
 ## Reflection
 [Rotten Filaments](https://github.com/shrey45/Project-Rating/blob/main/README.md) Score - **73%**
