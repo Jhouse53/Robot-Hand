@@ -9,11 +9,9 @@ Here is our initial proposal for our Robot arm project:
 
 [Google Doc Proposal](https://docs.google.com/document/d/1pJv--MkpJIrZVuyjbc_YNHxrnz6IX2q_PzAKAFET-n0/edit?usp=sharing)
 
-### Project Description
+## Project Description
 
-## Code
-
-### Summary
+### Code Summary:
 
 ### Code Snippets
 
@@ -40,7 +38,7 @@ myservo.write(angle);
 delay(40);
     
 ```
-[Click Here to see the full code](https://github.com/Jhouse53/Robot-Hand/blob/main/Code/FlexsensorCode.ino)
+[Click Here to see the full code](https://github.com/Jhouse53/Robot-Hand/blob/main/Code/sketch_jun02a.ino)
 
 ### Code Reflection
 
@@ -48,7 +46,7 @@ The code for this project was supposed to be easy, in theory, but ended up a lot
 
 ## CAD
 
-### Summary
+###  CAD Summary:
  
 ### Version 1
 
@@ -73,7 +71,29 @@ Version 3.2 is similar to Version 3 in most ways aside from a couple of differen
 ### CAD Reflection
 One of the main problems we ran into in our CAD design was that it was to small and the joints were to small and the 3D printer had a hard time printing them. and even if it did print it there would be heavy forces acting on it that would most likely break it. Design 2 was the first design we attempted to print out its major issue was that it was entirely to small. Both the fingers and the joints were to small and wouldn't be able to function properly.
 
-## Physical Project
+## Final Product
+
+### Code:
+
+### Code Snippets
+
+This is the main part of out code which turns our flex sensor readings into "servo language". The previous snippet was out work in progress code, which worked, but was not consistent, efficent, or dependable. With a few tweaks and changes, we got to this version of the code, which was by far the best, and worked amazingly!
+
+```c++
+
+value = analogRead(flexPin);         //Read and save analog value from potentiometer
+  //Serial.println(value);               //Print value
+  angle = map(value, 145, 260, 180, 0);//Map value 0-1023 to 0-255 (PWM)
+  angle = constrain(angle, 0, 180); //Stop mapped values from going over 180 or below 0
+  Serial.print("finger1: ");
+  Serial.print(angle);
+  myservo.write(angle);
+  delay(40);
+    
+```
+#### Summary
+The code, which started off as being looked at as the most difficult part of the project, wasn't too difficult after all. It was mainly the fact of us never using flex sensors before, and not knowing the possible errors that could come with it. We ended up having to recode and rewire many times, but all of those issues we might not run into if we were to do a similar project. Some were power issues, while some were issues with each flex sensor being slightly different in its values. It took us time, but the code came out pretty good.
+
 
 ## Reflection
 [Rotten Filaments](https://github.com/shrey45/Project-Rating/blob/main/README.md) Score - **73%**
