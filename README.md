@@ -95,6 +95,12 @@ value = analogRead(flexPin);         //Read and save analog value from potentiom
     
 ```
 
+### CAD:
+
+#### Summary
+
+For CAD, we didn't make any other huge changes to the actual palm design, but there were plenty of other things to do. This was the letdown part of our project. I'm going to be completely honest. It was a terrible design. Which was sort of expected when your trying to make a human hand in Onshape from scratch for the first time, but still it was bad - Aesthetically and Functionally. The design wasn't thought out the best - we had to use filament wire for our joints because the holes were too small, and a long allen wrench for the axle, with tape as spacers between. The fingers wouldn't actually work and curl completely, which we tried spraying with some WD-40, which helped a lot. Another huge roadblock was the servo wasn't actually pulling enough string to curl the finger on its own, so we had to make a spool to fit on the servo that would have the right circumfrence to pull the string far enough. Again, CAD was bad, but next time we know.
+
 
 
 ## Reflection
